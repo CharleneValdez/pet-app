@@ -3,10 +3,8 @@
     height: 64px;
     width: 100vw;
 
-    padding-right: 2rem;
-    padding-left: 2rem;
-
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    position: relative;
 }
 
 .navContainer {
@@ -16,8 +14,9 @@
 
     display: flex;
     align-items: center;
-
     justify-content: space-between;
+
+    margin: 0 110px;
 }
 
 .logoContainer {
