@@ -13,7 +13,7 @@ function Header() {
     const pathname = usePathname();
 
     return (
-        <nav className={Style.container}>
+        <nav className={`${Style.container} myShadow`}>
             <div className={Style.navContainer}>
                 <div className={Style.logoContainer}>
                     <Image 
